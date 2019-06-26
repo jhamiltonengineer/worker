@@ -1,0 +1,16 @@
+{
+  "DEPS": {
+     "images": {
+        "image1": {
+           "name": "redis",
+           "tag": "alpine",
+           "ports": "6379"
+         },
+         "image2": {
+            "name": "postgres",
+            "tag": "9.4",
+            "ports": "5432"
+        }
+      }
+   }
+ }
